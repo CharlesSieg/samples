@@ -55,5 +55,29 @@ e2299030ac2a
 
 Confirm that the container has stopped by running `docker ps` again and verifying the absence of the container's process in the list.
 
+To remove the container:
 
+```
+docker container rm e2299030ac2a
+
+e2299030ac2a
+```
+
+To remove the image:
+
+```
+docker rmi basic-dockerize
+
+Untagged: basic-dockerize:latest
+Deleted: sha256:43ea15c8a66fd40fa394a201a18e1debd1e488058d8545dac98316b3044bf7d7
+Deleted: sha256:ad6da0c5f373544da6b4747c54e8f35cbd6288d39b50c0b679b1a2432db5dc62
+Deleted: sha256:fdb74606209c68924b210f0d0cddd184968e110f3dbe034410acaf90eae8636d
+Deleted: sha256:7dc6ec49c42551958bb2e1aa6dea943667e060bd383c574293f65dadb6546011
+Deleted: sha256:9737793779cb874335cbb5609581bfc064a5dc270857869175c6a393251d69a4
+Deleted: sha256:ef0b3d05675c6464b411e014b58f245847c42242cb1f5522f1e29463ef4d1317
+Deleted: sha256:421040d5053906105d8baef48251499a25c00416c4d1d7a6cc6988ee4513d1c9
+Deleted: sha256:42c86b69f072cbe1b450db7b92608281853174de66fcbf1a3b395abc639c78b2
+Deleted: sha256:6486c47da7e8c98b5fb13ac06c21b8d9f34d45ae7e243bf49cb95298726ef6c2
+Deleted: sha256:24262066a0c3bb10836010d85f9091c93d7cb53bf8b170ac5f02f76fb71ebbe4
+```
 
